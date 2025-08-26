@@ -90,9 +90,10 @@
     <div id="root"></div>
     <!-- 
       The script type is 'text/babel' so Babel can transpile it.
+      'data-type="module"' tells Babel to handle ES modules (imports/exports).
       'data-presets' tells Babel how to handle React and TypeScript syntax.
       The 'src' path is './index.tsx' (relative) to work correctly on GitHub Pages.
     -->
-    <script type="text/babel" data-presets="react,typescript" src="./index.tsx"></script>
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
 </html>
