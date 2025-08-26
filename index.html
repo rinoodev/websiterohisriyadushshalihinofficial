@@ -2,7 +2,7 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="https://api.dicebear.com/8.x/initials/svg?seed=RR&backgroundColor=10b981&textColor=ffffff&size=40" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohis Riyadushshalihin</title>
     <meta name="description" content="Website Resmi Rohis Riyadushshalihin. Informasi kegiatan, berita, galeri, dan program unggulan." />
@@ -75,26 +75,19 @@
   <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@18.2.0",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.23.1",
-    "lucide-react": "https://esm.sh/lucide-react@0.400.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.541.0"
   }
 }
 </script>
-<!-- Add Babel Standalone for client-side TSX/JSX transpilation -->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans">
     <div id="root"></div>
-    <!-- 
-      The script type is 'text/babel' so Babel can transpile it.
-      'data-type="module"' tells Babel to handle ES modules (imports/exports).
-      'data-presets' tells Babel how to handle React and TypeScript syntax.
-      The 'src' path is './index.tsx' (relative) to work correctly on GitHub Pages.
-    -->
-    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
-  </body>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>
