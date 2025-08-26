@@ -1,0 +1,93 @@
+
+import { Kegiatan } from '../types/index.ts';
+
+export const kegiatanData: Kegiatan[] = [
+  {
+    id: 1,
+    title: 'Kajian Akbar Pemuda Islam',
+    date: '2024-07-15',
+    category: 'Kajian',
+    description: 'Kajian akbar untuk meningkatkan semangat keislaman generasi muda.',
+    details: 'Acara ini menghadirkan penceramah nasional dan diisi dengan berbagai kegiatan menarik seperti nasyid, bazar buku Islam, dan doorprize. Terbuka untuk umum, khususnya pelajar dan mahasiswa.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan1/1200/400',
+    gallery: [
+      'https://picsum.photos/seed/kegiatan1-1/600/400',
+      'https://picsum.photos/seed/kegiatan1-2/600/400',
+      'https://picsum.photos/seed/kegiatan1-3/600/400',
+      'https://picsum.photos/seed/kegiatan1-4/600/400',
+    ],
+    location: 'Masjid Agung Kota',
+  },
+  {
+    id: 2,
+    title: 'Bakti Sosial dan Donor Darah',
+    date: '2024-08-10',
+    category: 'Sosial',
+    description: 'Kegiatan sosial berbagi dengan sesama dan aksi donor darah bekerja sama dengan PMI.',
+    details: 'Wujud kepedulian kami terhadap sesama. Kegiatan meliputi pembagian sembako untuk warga kurang mampu di sekitar sekolah dan aksi donor darah yang terbuka untuk seluruh warga sekolah dan masyarakat umum.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan2/1200/400',
+    gallery: [
+        'https://picsum.photos/seed/kegiatan2-1/600/400',
+        'https://picsum.photos/seed/kegiatan2-2/600/400',
+    ],
+    location: 'Aula Sekolah & Lingkungan Sekitar',
+  },
+  {
+    id: 3,
+    title: 'Rohis Futsal Competition',
+    date: '2024-09-05',
+    category: 'Olahraga',
+    description: 'Kompetisi futsal antar kelas untuk mempererat ukhuwah dan menyalurkan bakat.',
+    details: 'Ajang tahunan yang paling ditunggu! Selain untuk menjaga kebugaran jasmani, kompetisi ini bertujuan untuk mempererat tali silaturahmi antar siswa melalui sportivitas.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan3/1200/400',
+    gallery: [
+        'https://picsum.photos/seed/kegiatan3-1/600/400',
+        'https://picsum.photos/seed/kegiatan3-2/600/400',
+        'https://picsum.photos/seed/kegiatan3-3/600/400',
+    ],
+    location: 'Lapangan Futsal Sekolah',
+  },
+  {
+    id: 4,
+    title: 'Gebyar Muharram 1446 H',
+    date: '2024-07-07',
+    category: 'Lomba',
+    description: 'Rangkaian lomba islami dalam rangka menyambut Tahun Baru Islam 1446 H.',
+    details: 'Menyemarakkan Tahun Baru Islam dengan berbagai perlombaan seperti Lomba Cerdas Cermat PAI, Musabaqah Tilawatil Quran (MTQ), Lomba Dai, dan Kaligrafi. Puncak acara diisi dengan pawai obor.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan4/1200/400',
+    gallery: [
+        'https://picsum.photos/seed/kegiatan4-1/600/400',
+        'https://picsum.photos/seed/kegiatan4-2/600/400',
+    ],
+    location: 'Lingkungan Sekolah',
+  },
+  {
+    id: 5,
+    title: 'Mabit (Malam Bina Iman dan Taqwa)',
+    date: '2024-05-25',
+    category: 'Kajian',
+    description: 'Kegiatan menginap di sekolah untuk meningkatkan keimanan dan ketaqwaan.',
+    details: 'Sebuah malam yang didedikasikan untuk mendekatkan diri kepada Allah. Rangkaian acara meliputi shalat tahajud berjamaah, muhasabah, tausiyah, dan tadabbur Al-Quran.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan5/1200/400',
+    gallery: [
+        'https://picsum.photos/seed/kegiatan5-1/600/400',
+        'https://picsum.photos/seed/kegiatan5-2/600/400',
+        'https://picsum.photos/seed/kegiatan5-3/600/400',
+    ],
+    location: 'Masjid Sekolah',
+  },
+  {
+    id: 6,
+    title: 'Tadabbur Alam',
+    date: '2024-06-15',
+    category: 'Olahraga',
+    description: 'Kegiatan rekreasi sambil merenungi kebesaran ciptaan Allah di alam terbuka.',
+    details: 'Melepas penat dari rutinitas sekolah dengan menjelajahi alam. Kegiatan ini diisi dengan hiking, games kekompakan, dan sesi renungan di alam terbuka untuk meningkatkan rasa syukur.',
+    bannerImage: 'https://picsum.photos/seed/kegiatan6/1200/400',
+    gallery: [
+        'https://picsum.photos/seed/kegiatan6-1/600/400',
+        'https://picsum.photos/seed/kegiatan6-2/600/400',
+    ],
+    location: 'Taman Hutan Raya',
+  },
+];
