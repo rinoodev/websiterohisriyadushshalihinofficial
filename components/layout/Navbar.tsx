@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <Link to="/home" className="flex items-center gap-3 text-xl font-bold text-gray-800 dark:text-white">
-              <img src="https://api.dicebear.com/8.x/initials/svg?seed=RR&backgroundColor=10b981&textColor=ffffff&size=32" alt="Logo" className="h-8 w-8 rounded-md" />
+              <img src="img/ROHIS.png" alt="Logo" className="h-8 w-8 rounded-md" />
               <span>Rohis Riyadushshalihin</span>
             </Link>
           </div>

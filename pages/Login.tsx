@@ -62,7 +62,7 @@ const Login: React.FC = () => {
             <BackgroundLines />
             <div className="relative z-10 flex-grow flex flex-col justify-center">
                 <div className="flex items-center gap-4 text-3xl font-bold">
-                    <img src="https://api.dicebear.com/8.x/initials/svg?seed=RR&backgroundColor=ffffff,d1fae5&backgroundType=gradientLinear&textColor=059669&size=48" alt="Logo" className="h-12 w-12 rounded-lg" />
+                    <img src="img/ROHIS.png" alt="Logo" className="h-12 w-12 rounded-lg" />
                     <span>Rohis Riyadushshalihin</span>
                 </div>
                 <h1 className="mt-16 text-5xl font-bold tracking-tight">
