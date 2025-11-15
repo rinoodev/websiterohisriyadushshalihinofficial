@@ -12,7 +12,6 @@ const navLinks = [
 ];
 
 const Navbar: React.FC = () => {
-  const { logout } = useAuth();
   const { theme, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -51,9 +50,6 @@ const Navbar: React.FC = () => {
                <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Toggle theme">
                 {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
               </Button>
-              <Button variant="ghost" size="icon" onClick={logout} aria-label="Logout">
-                <LogOut className="h-5 w-5 text-red-500" />
-              </Button>
             </div>
           </div>
 
@@ -81,10 +77,6 @@ const Navbar: React.FC = () => {
               <Button variant="ghost" onClick={toggleTheme} aria-label="Toggle theme" className="flex items-center gap-2">
                 {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
                 <span>Toggle Theme</span>
-              </Button>
-              <Button variant="ghost" onClick={logout} aria-label="Logout" className="flex items-center gap-2 text-red-500">
-                <LogOut className="h-5 w-5" />
-                <span>Logout</span>
               </Button>
             </div>
           </div>

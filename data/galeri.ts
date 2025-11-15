@@ -7,5 +7,5 @@ export const galeriData: GalleryImage[] = [
   { id: 2, imageUrl: 'img/Dakwah.jpeg', caption: 'Program: Kerja Departemen Dakwah', department: 'Dakwah' },
   { id: 3, imageUrl: 'img/TI.jpeg', caption: 'Program: Kerja Departemen TI', department: 'TI' },
   { id: 4, imageUrl: 'img/Ekonomi.jpeg', caption: 'Program: Kerja Departemen Ekonomi', department: 'Ekonomi' },
-  { id: 5, imageUrl: 'img/BRT.jpeg', caption: 'Program: Kerja Departemen BRT', department: 'BRT' },
+  { id: 5, imageUrl: 'img/Brt.jpeg', caption: 'Program: Kerja Departemen BRT', department: 'BRT' },
 ];
