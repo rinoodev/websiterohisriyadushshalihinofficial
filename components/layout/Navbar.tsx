@@ -6,7 +6,7 @@ import { Menu, X, Sun, Moon, LogOut } from 'lucide-react';
 import { Button } from '../ui/Button.tsx';
 
 const navLinks = [
-  { to: '/home', label: 'Home' },
+  { to: '/', label: 'Home' },
   { to: '/tentang', label: 'Tentang Kami' },
   { to: '/dakwah', label: 'Dakwah' },
 ];
