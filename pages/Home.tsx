@@ -320,13 +320,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="border border-primary-200 dark:border-primary-700/50 rounded-lg p-6 flex justify-center">
-              <img
-                src="/img/ROHIS.png"
-                alt="Logo Rohis Skiel"
-                className="w-64 h-auto object-contain animate-floating"
-              />
-            </div>
+            {/* Right Column: Contact Form */} <div className="border border-primary-200 dark:border-primary-700/50 rounded-lg p-6"> <form className="space-y-4"> <div className="grid sm:grid-cols-2 gap-4"> <div> <Label htmlFor="home-name">Your Name</Label> <Input id="home-name" type="text" placeholder="user" className="mt-1"/> </div> <div> <Label htmlFor="home-email">Your Email</Label> <Input id="home-email" type="email" placeholder="user@gmail.com" className="mt-1"/> </div> </div> <div> <Label htmlFor="home-subject">Subject</Label> <Input id="home-subject" type="text" placeholder="Regarding..." className="mt-1"/> </div> <div> <Label htmlFor="home-message">Message</Label> <textarea id="home-message" rows={5} placeholder="Write your message here..." className="w-full mt-1 flex rounded-md border border-gray-300 dark:border-gray-600 bg-transparent px-3 py-2 text-sm ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500" ></textarea> </div> <Button type="submit" className="w-full !bg-amber-400 hover:!bg-amber-500 !text-primary-900 font-semibold"> Send Message </Button> </form> </div>
           </div>
         </div>
       </section>
